@@ -24,7 +24,7 @@ html {
 body {
   background-color: var(--color-black);
   color: var(--color-white);
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .home {
   background-image: linear-gradient(
