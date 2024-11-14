@@ -37,6 +37,8 @@ body {
       rgba(255, 0, 0, 0.733)
     ),
     url(img/hero.jpg);
+  width: 100vw;
+  overflow: hidden;
 
   background-size: cover;
   height: 95vh;
@@ -44,6 +46,7 @@ body {
 }
 nav {
   display: flex;
+  width: 100%;
 
   padding: 2rem 1rem 0 1rem;
   align-items: center;
@@ -85,7 +88,7 @@ nav .logo {
 }
 .hero {
   display: flex;
-
+  width: 100%;
   align-items: center;
   justify-content: space-around;
 }
