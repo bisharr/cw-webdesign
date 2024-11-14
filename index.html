@@ -20,9 +20,9 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#services">Service</a></li>
-          <li><a href="#">members</a></li>
-          <li><a href="testimonials"></a></li>
-          <li class="contact"><a href="#">contact us</a></li>
+          <li><a href="#members">members</a></li>
+
+          <li class="contact"><a href="#contact">contact us</a></li>
         </ul>
         <img class="sun" src="img/sun.png" alt="theme" />
       </nav>
@@ -38,7 +38,7 @@
       </div>
     </div>
     <section class="serviice-section" id="services">
-      <div class="text-container"><h1 class="text">Our members</h1></div>
+      <div class="text-container"><h1 class="text">Our services</h1></div>
       <div class="service-container">
         <div class="service-elements">
           <h2>web development</h2>
@@ -78,7 +78,7 @@
       </div>
       <!-- members -->
     </section>
-    <section class="members">
+    <section id="members" class="members">
       <div class="text-container"><h1 class="text">Our members</h1></div>
 
       <div class="memebers-container">
@@ -102,9 +102,9 @@
         </div>
         <!-- members 2 -->
         <div class="members-elments">
-          <img src="members/bashka2.jpg" alt="sts" />
-          <h3>bishar abdinur</h3>
-          <h5>Designer</h5>
+          <img src="members/jikol.jpg" alt="sts" />
+          <h3>Jikol Simon</h3>
+          <h5>developer</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum et
             dolorum dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -260,6 +260,173 @@
         </div>
       </div>
     </section>
+    <section class="contact_us" id="contact">
+      <div class="text-container" id="textwhite">
+        <h1 class="text">contact us</h1>
+      </div>
+
+      <div class="contact_container">
+        <div class="contact_form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <h3 id="textwhite">Send Us Message</h3>
+            <input
+              type="hidden"
+              name="access_key"
+              value="38a04918-220a-46af-b2aa-0c082ae0fb4e"
+            />
+
+            <input type="text" name="name" required placeholder="Name" />
+            <input type="email" name="email" required placeholder="Email" />
+            <input
+              type="number"
+              name="text"
+              required
+              placeholder="Phone Number"
+              max="16"
+              min="7"
+            />
+            <textarea
+              name="message"
+              required
+              placeholder="Your message"
+            ></textarea>
+            <button type="submit">Submit Form</button>
+          </form>
+        </div>
+        <div class="contact_address">
+          <div class="address">
+            <h3 id="textwhite">Visit us</h3>
+            <div class="address_info">
+              <p>
+                <span class="highlight"
+                  >Adress
+                  <ion-icon class="addresi" name="pin-outline"></ion-icon
+                ></span>
+                Uganda,Kampala
+              </p>
+              <p>
+                <span class="highlight"
+                  >Email <ion-icon class="email" name="mail-outline"></ion-icon
+                ></span>
+                <a href="Mailto:Bishar995@gmail.com"> Elitegroup@gamil.com</a>
+                just click here
+              </p>
+              <p class="phone-class">
+                <span class="highlight phone-icons"
+                  >Phones <ion-icon class="call" name="call-outline"></ion-icon
+                  ><ion-icon class="wathsapp" name="logo-whatsapp"></ion-icon
+                ></span>
+                <a href="tel: +25686792403">+25686792403</a>
+                <a href="tel: +256779955491">+256779955491</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testtimonials -->
+    <section class="testimonials_sections">
+      <div class="text-container">
+        <h1 class="text">what Our clients said about us</h1>
+      </div>
+      <div class="carousel">
+        <img src="testimonials/tes3.jpg" alt="me" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            " Create lasting memories with your family as you share laughter,
+            splashes, and exciting moments in your family-friendly pool
+            environment. this shallow areas are perfect for kids."
+          </p>
+          <p class="testimonial-author">Muhumuza</p>
+          <p class="testimonial-job">From Jinja Uganda</p>
+        </blockquote>
+      </div>
+      <div class="carousel">
+        <img src="testimonials/tes1.jpg" alt="me" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            " Create lasting memories with your family as you share laughter,
+            splashes, and exciting moments in your family-friendly pool
+            environment. this shallow areas are perfect for kids."
+          </p>
+          <p class="testimonial-author">Nakirya</p>
+          <p class="testimonial-job">From Kampala uganda</p>
+        </blockquote>
+      </div>
+      <div class="carousel">
+        <img src="testimonials/tes2.jpg" alt="me" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            " Create lasting memories with your family as you share laughter,
+            splashes, and exciting moments in your family-friendly pool
+            environment. this shallow areas are perfect for kids."
+          </p>
+          <p class="testimonial-author">Mukasa</p>
+          <p class="testimonial-job">From mbale uganda</p>
+        </blockquote>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer_container">
+        <div class="links">
+          <h3 class="footer_title">Company</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">service</a></li>
+            <li><a href="#members">members</a></li>
+            <li><a href="#contact">contact us</a></li>
+          </ul>
+        </div>
+        <div class="contact_address">
+          <div class="address">
+            <h3>Visit us</h3>
+            <div class="address_info">
+              <p>
+                <span class="highlight"
+                  >Adress
+                  <ion-icon class="addresi" name="pin-outline"></ion-icon
+                ></span>
+                Uganda,Kampala
+              </p>
+              <p>
+                <span class="highlight"
+                  >Email <ion-icon class="email" name="mail-outline"></ion-icon
+                ></span>
+                <a href="Mailto:Bishar995@gmail.com"> Elitegroup@gamil.com</a>
+                just click here
+              </p>
+              <p class="phone-class">
+                <span class="highlight phone-icons"
+                  >Phones <ion-icon class="call" name="call-outline"></ion-icon
+                  ><ion-icon class="wathsapp" name="logo-whatsapp"></ion-icon
+                ></span>
+                <a href="tel: +25686792403">+25686792403</a>
+                <a href="tel: +256779955491">+256779955491</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="supscrip">
+          <h3 class="footer_title">Support Us</h3>
+          <div class="sup_input">
+            <input type="email" placeholder="Email" />
+            <button>Subscripe</button>
+          </div>
+          <div class="sup_icons">
+            <ion-icon class="icons" name="call-outline"></ion-icon>
+            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+            <ion-icon class="icons" name="logo-twitter"></ion-icon>
+            <ion-icon class="icons" name="logo-facebook"></ion-icon>
+            <ion-icon class="icons" name="logo-whatsapp"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="date">
+        <h3 class="timeformat"></h3>
+        <h3 class="datefotmat"></h3>
+      </div>
+    </section>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
