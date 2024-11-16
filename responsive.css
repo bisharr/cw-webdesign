@@ -130,4 +130,7 @@
     display: none;
     visibility: hidden;
   }
+  .contact_form {
+    width: 100%;
+  }
 }

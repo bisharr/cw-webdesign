@@ -82,6 +82,7 @@ nav .sun {
   width: 3.5rem;
   height: 3.5rem;
   cursor: pointer;
+  margin-right: 1rem;
 }
 nav .logo {
   width: 5rem;
@@ -494,6 +495,7 @@ section {
   font-size: 2.1rem;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
+  text-align: start;
 }
 .links ul li a {
   list-style: none;
@@ -517,5 +519,9 @@ section {
   font-size: 1.95rem;
   margin-top: 2.5rem;
 }
-
-/* //small code from ... */
+.language {
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.6rem;
+  outline: none;
+  display: none;
+}
