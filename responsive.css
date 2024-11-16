@@ -8,6 +8,9 @@
   .service-container {
     grid-template-columns: 1fr 1fr;
   }
+  section {
+    max-width: 98rem;
+  }
 
   .memebers-container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,7 +33,7 @@
     font-size: 50%;
   }
   section {
-    max-width: 75rem;
+    max-width: 77rem;
   }
   .carousel {
     width: 60rem;
@@ -58,6 +61,7 @@
 /* phones 600/16 = 37.5em */
 @media (max-width: 37.5em) {
   html {
+    /* 1rem = 7px, 7/16px*100 = 50% */
     font-size: 43.75%;
   }
   section {
@@ -110,5 +114,20 @@
   }
   .hero_text p {
     font-size: 2.3rem;
+  }
+}
+/* phones 400/16 = 25.em */
+
+@media (max-width: 25em) {
+  html {
+    /* 1rem = 6px, 6/16px*100 = 50% */
+    font-size: 37.5%;
+  }
+  section {
+    max-width: 48rem;
+  }
+  .testimonials_sections {
+    display: none;
+    visibility: hidden;
   }
 }
