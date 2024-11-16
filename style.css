@@ -245,14 +245,17 @@ section {
 .memebers-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
   gap: 2rem;
 }
 .members-elments {
-  width: 25rem;
+  max-width: 25rem;
   border-radius: 1.1rem;
   box-shadow: 0 0 1rem;
   box-shadow: 0 0 1rem var(--color-black-grey);
   overflow: hidden;
+
+  margin: 0 auto;
 }
 
 .members-elments img {

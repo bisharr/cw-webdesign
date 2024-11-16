@@ -50,6 +50,9 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
+  .members-elments {
+    max-width: 30rem;
+  }
 }
 
 /* phones 600/16 = 37.5em */
@@ -57,25 +60,34 @@
   html {
     font-size: 43.75%;
   }
+  section {
+    max-width: 55rem;
+  }
+  .carousel {
+    width: 40rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .hero {
     flex-direction: column;
     margin-top: 3rem;
     margin-bottom: 5rem;
   }
   .hero_img img {
-    width: 100%;
-    height: 32rem;
+    display: none;
   }
   .memebers-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     align-items: center;
   }
-  .service-container {
-    grid-template-columns: 1fr;
+  .members-elments {
+    max-width: 32rem;
   }
 
-  .memebers-container {
-    grid-template-columns: 1fr 1fr;
+  .service-container {
+    grid-template-columns: 1fr;
   }
 
   .contact_container {
@@ -92,5 +104,11 @@
 
   .btn {
     padding: 1rem 1.5rem;
+  }
+  .hero_text h1 {
+    font-size: 3.4rem;
+  }
+  .hero_text p {
+    font-size: 2.3rem;
   }
 }
