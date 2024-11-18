@@ -131,7 +131,10 @@ nav .logo {
   width: 60rem;
   height: 40rem;
   animation: fromLeft 3s ease-in-out;
-  background-blend-mode: multiply;
+  background: none;
+  mix-blend-mode: screen;
+  color: transparent;
+  filter: brightness(1.4);
 }
 
 @keyframes updown {
