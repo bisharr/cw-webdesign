@@ -6,7 +6,8 @@ const dateEl = document.querySelector(".datefotmat");
 const date = new Date();
 let fullYear = date.getFullYear();
 let month = date.getMonth();
-let day = date.getDay();
+let day = date.getDate();
+console.log(day);
 let monthformat = `${month < 10 ? `0${month + 1}` : month + 1}`;
 let dayformat = `${day < 10 ? `0${day}` : day}`;
 dateEl.textContent = `${monthformat}/${dayformat}/${fullYear}`;
@@ -50,5 +51,7 @@ languageEl.addEventListener("change", function (e) {
     console.log("somali");
     stEL.textContent =
       "waxaan nahay ardayda Vu kuwaas oo hormariya softweeradii udanbeeyay";
+  } else {
+    stEL.textContent = "  We are Vu Students and we're Software engineers";
   }
 });
