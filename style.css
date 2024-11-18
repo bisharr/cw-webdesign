@@ -85,8 +85,9 @@ nav .sun {
   margin-right: 1rem;
 }
 nav .logo {
-  width: 5rem;
-  height: 5rem;
+  width: 15rem;
+  height: 8rem;
+  object-fit: contain;
 }
 .hero {
   display: flex;
@@ -130,6 +131,7 @@ nav .logo {
   width: 60rem;
   height: 40rem;
   animation: fromLeft 3s ease-in-out;
+  background-blend-mode: multiply;
 }
 
 @keyframes updown {
@@ -189,53 +191,12 @@ section {
   margin-bottom: 1.6rem;
 }
 /* service section */
-.serviice-section {
-  background-color: var(--color-black-grey);
-  color: var(--color-white);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 .text {
   font-size: 3rem;
   margin-top: 3rem;
   margin-bottom: 1.9rem;
   text-transform: uppercase;
-}
-.service-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6rem;
-  /* text-align: center; */
-}
-
-.service-elements {
-  width: 30rem;
-  text-align: center;
-  text-wrap: wrap;
-  border-radius: 1.1rem;
-  padding: 2rem 1rem;
-  box-shadow: 0 0 1rem var(--color-white-grey);
-}
-.service-elements h2 {
-  font-size: 2.1rem;
-  margin-top: 0.8rem;
-  text-transform: uppercase;
-}
-.service-elements p {
-  font-size: 1.6rem;
-  margin-top: 0.5rem;
-  text-align: start;
-  line-height: 1.3;
-}
-.service-elements .icons {
-  font-size: 3.1rem;
-  display: inline-block;
-  margin-bottom: 1.7rem;
-  margin-top: 2rem;
-  text-align: center;
 }
 
 /* members section */
@@ -280,7 +241,7 @@ section {
   text-transform: uppercase;
   text-align: start;
   letter-spacing: 1px;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   margin: 0.2rem;
 }
 .members-elments p {
@@ -393,52 +354,6 @@ section {
 }
 
 /* //testtimonials */
-.testimonials_sections {
-  background-color: var(--color-white-grey);
-  color: var(--color-black);
-}
-.carousel img {
-  height: 20rem;
-  border-radius: 0.8rem;
-  object-fit: cover;
-  transform: scale(1.5);
-  box-shadow: 0 0.2rem 2.4rem rgb(0, 0, 0, 0.25);
-}
-.carousel {
-  width: 80rem;
-  border-radius: 0.6rem;
-  background-color: #087f5bec;
-  margin: 10rem auto;
-  padding: 3.2rem 4.8rem 3.2rem 8.6rem;
-  /* padding-left: 80px; */
-  border-radius: 0.8rm;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  gap: 3.2rem;
-  gap: 8.6rem;
-  position: relative;
-}
-.testimonial {
-  margin: 0;
-}
-.testimonial-text {
-  font-size: 1.8rem;
-  font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 3.2rem;
-  color: #e6fcf5;
-}
-.testimonial-author {
-  font-size: 1.6rem;
-  margin: 0;
-  color: #c3fae8;
-  margin-bottom: 4px;
-}
-.testimonial-job {
-  font-size: 1.2rem;
-  margin: 0;
-}
 
 /* //footer */
 .footer {

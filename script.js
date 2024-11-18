@@ -34,24 +34,7 @@ DateFun();
 sunEL.addEventListener("click", function () {
   document.body.classList.toggle("darkTheme");
   if (document.body.classList.contains("darkTheme")) {
-    sunEL.src = "img/moon.png";
   } else {
     sunEL.src = "img/sun.png";
-    heroImgEl.src = "img/hero.jpg";
-  }
-});
-
-const languageEl = document.querySelector(".language");
-const stEL = document.querySelector(".students");
-console.log(stEL);
-console.log(languageEl);
-
-languageEl.addEventListener("change", function (e) {
-  if (e.target.value === "somali") {
-    console.log("somali");
-    stEL.textContent =
-      "waxaan nahay ardayda Vu kuwaas oo hormariya softweeradii udanbeeyay";
-  } else {
-    stEL.textContent = "  We are Vu Students and we're Software engineers";
   }
 });
