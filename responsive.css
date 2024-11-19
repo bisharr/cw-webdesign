@@ -119,11 +119,20 @@
   section {
     max-width: 48rem;
   }
-  .testimonials_sections {
-    display: none;
-    visibility: hidden;
-  }
+
   .contact_form {
     width: 100%;
+  }
+}
+
+/* phones 300/16 = 18.75.em */
+
+@media (max-width: 18.75em) {
+  html {
+    /* 1rem = 6px, 6/16px*100 = 50% */
+    font-size: 31.25%;
+  }
+  section {
+    max-width: 42rem;
   }
 }
