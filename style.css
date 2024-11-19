@@ -86,7 +86,7 @@ nav .sun {
 }
 nav .logo {
   width: 15rem;
-  height: 8rem;
+  height: auto;
   object-fit: contain;
 }
 .hero {
