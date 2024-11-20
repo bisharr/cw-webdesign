@@ -37,12 +37,15 @@ body {
       var(--color-white-background),
       rgba(255, 0, 0, 0.733)
     ),
-    url(img/hero.jpg);
+    url(members/grouppic.jpg);
   width: 100vw;
   overflow: hidden;
 
-  background-size: cover;
-  height: 95vh;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 97vh;
   clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 }
 nav {
@@ -91,12 +94,12 @@ nav .logo {
 }
 .hero {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   align-items: center;
   justify-content: space-around;
 }
 .hero_text {
-  width: 60rem;
+  width: 50rem;
   padding: 1.2rem 2rem;
 }
 .hero_text h1 {
@@ -126,15 +129,11 @@ nav .logo {
   background-color: rgba(13, 120, 226, 0.795);
 }
 .hero_img img {
-  margin-top: 3rem;
-  border-radius: 1rem;
-  width: 60rem;
-  height: 40rem;
+  margin: 0;
+
+  width: 70rem;
+  height: 45rem;
   animation: fromLeft 3s ease-in-out;
-  background: none;
-  mix-blend-mode: screen;
-  color: transparent;
-  filter: brightness(1.4);
 }
 
 @keyframes updown {

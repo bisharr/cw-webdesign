@@ -87,8 +87,18 @@ section ul li {
   display: flex;
   align-items: center;
 }
+section ol li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
 
 section ul li i {
+  color: #007bff;
+  margin-right: 0.5rem;
+}
+section ol li i {
   color: #007bff;
   margin-right: 0.5rem;
 }
