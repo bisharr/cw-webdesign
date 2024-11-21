@@ -126,7 +126,7 @@ nav .logo {
   margin-top: 0.6rem;
 }
 .btn:hover {
-  background-color: rgba(13, 120, 226, 0.795);
+  opacity: 0.7;
 }
 .hero_img img {
   margin: 0;
@@ -237,12 +237,14 @@ section {
   letter-spacing: 1px;
   margin: 0.2rem;
   text-align: start;
+  font-weight: 800;
 }
 .members-elments h5 {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: start;
   letter-spacing: 1px;
+  font-weight: 700;
   /* text-decoration: line-through; */
   margin: 0.2rem;
 }
@@ -250,9 +252,16 @@ section {
   text-align: start;
   font-size: 1.2rem;
   margin: 0.3rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  word-spacing: 0.5rem;
+  margin-top: 0.5rem;
 }
 .members-elments button {
   margin: 1rem;
+}
+.members-elments button:hover {
+  opacity: 0.5;
 }
 .icons {
   display: flex;
