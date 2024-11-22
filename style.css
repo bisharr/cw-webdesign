@@ -43,6 +43,8 @@ body {
 
   background-size: 100%;
   background-position: center;
+  background-size: contain;
+
   background-repeat: no-repeat;
 
   height: 97vh;
