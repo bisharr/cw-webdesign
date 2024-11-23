@@ -96,10 +96,10 @@ nav .logo {
 }
 .hero {
   display: flex;
-  /* width: 100%; */
   align-items: center;
   justify-content: space-around;
 }
+
 .hero_text {
   width: 50rem;
   padding: 1.2rem 2rem;
@@ -181,12 +181,12 @@ nav .logo {
   font-size: 9rem;
 }
 /* this code will use all section elementents */
+
 section {
   max-width: 130rem;
   margin: 6rem auto;
   padding: 3rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.753);
-  /* text-align: center; */
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -247,14 +247,14 @@ section {
   text-align: start;
   letter-spacing: 1px;
   font-weight: 700;
-  /* text-decoration: line-through; */
+
   margin: 0.2rem;
 }
 .members-elments p {
   text-align: start;
   font-size: 1.2rem;
   margin: 0.3rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.4rem;
   word-spacing: 0.5rem;
   margin-top: 0.5rem;
