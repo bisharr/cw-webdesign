@@ -138,6 +138,7 @@ nav .logo {
   animation: fromLeft 3s ease-in-out;
 }
 
+/* Kye frames for animations */
 @keyframes updown {
   0% {
     opacity: 0;
@@ -194,7 +195,6 @@ section {
   text-align: center;
   margin-bottom: 1.6rem;
 }
-/* service section */
 
 .text {
   font-size: 3rem;
@@ -203,7 +203,7 @@ section {
   text-transform: uppercase;
 }
 
-/* members section */
+/* members section **************************** */
 .members {
   background-color: var(--color-white-grey);
   color: var(--color-black);
@@ -217,7 +217,7 @@ section {
 .members-elments {
   max-width: 25rem;
   border-radius: 1.1rem;
-  box-shadow: 0 0 1rem;
+
   box-shadow: 0 0 1rem var(--color-black-grey);
   overflow: hidden;
 
@@ -288,7 +288,7 @@ section {
   padding: 0.8rem;
 }
 
-/* Contact us */
+/* Contact us section ************************ */
 .contact_container {
   display: flex;
 
@@ -366,7 +366,7 @@ section {
   gap: 0.4rem;
 }
 
-/* //footer */
+/* //footer***************************************** */
 .footer {
   background-color: var(--color-black-grey);
   color: var(--color-white);
@@ -375,7 +375,7 @@ section {
 
 .footer_container {
   display: flex;
-  /* align-items: center; */
+
   justify-content: space-around;
 }
 .sup_input {
